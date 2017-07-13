@@ -8,11 +8,15 @@ if hexo-config("scheme") == Pisces
     }
     +tablet() {
       width: auto;
-      &:before { display: none; }
+      &:before {
+        display: none;
+      }
     }
     +mobile() {
       width: auto;
-      &:before { display: none; }
+      &:before {
+        display: none;
+      }
     }
   }
 
@@ -27,8 +31,7 @@ if hexo-config("scheme") == Pisces
 }
 
 if hexo-config("busuanzi_count.site_pv") and hexo-config("busuanzi_count.site_uv")
-  .site-uv
-  {
+  .site-uv {
     margin-right: 10px;
 
     &::after {

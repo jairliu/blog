@@ -12,8 +12,8 @@ function groupPicture(args, content) {
   var pictures = content.match(/<img[\s\S]*?>/g);
 
   return '<div class="group-picture">' +
-            templates.dispatch(pictures, group, layout) +
-         '</div>';
+    templates.dispatch(pictures, group, layout) +
+    '</div>';
 }
 
 var templates = {
@@ -812,7 +812,7 @@ var templates = {
   getRowHTML: function (pictures) {
     return (
       '<div class="group-picture-row">' +
-        this.getColumnHTML(pictures) +
+      this.getColumnHTML(pictures) +
       '</div>'
     );
   },

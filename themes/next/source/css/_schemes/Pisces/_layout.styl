@@ -22,7 +22,9 @@
   border-radius: $border-radius-inner;
 
   +desktop-large() {
-    .container & { width: 240px; }
+    .container & {
+      width: 240px;
+    }
   }
   +tablet() {
     position: relative;
@@ -96,8 +98,9 @@
   }
 }
 
-.sidebar-toggle { display: none; }
-
+.sidebar-toggle {
+  display: none;
+}
 
 .footer-inner {
   width: $main-desktop;
@@ -112,22 +115,32 @@
   +tablet() {
     width: auto;
 
-    &:before { display: none; }
+    &:before {
+      display: none;
+    }
   }
   +mobile() {
     width: auto;
 
-    &:before { display: none; }
+    &:before {
+      display: none;
+    }
   }
 }
 
-
-
 .sidebar-position-right {
-  .header-inner { right: 0; }
-  .content-wrap { float: left; }
-  .sidebar { float: right; }
+  .header-inner {
+    right: 0;
+  }
+  .content-wrap {
+    float: left;
+  }
+  .sidebar {
+    float: right;
+  }
 
-  .footer-inner:before { float: right; }
+  .footer-inner:before {
+    float: right;
+  }
 }
 

@@ -22,6 +22,5 @@
   "trailing": true,
   "undef": true,
   "unused": true,
-
   "expr": true
 }

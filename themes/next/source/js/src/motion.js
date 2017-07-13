@@ -184,7 +184,7 @@ $(document).ready(function () {
     }
   };
 
-  NexT.motion.middleWares =  {
+  NexT.motion.middleWares = {
     logo: function (integrator) {
       var sequence = [];
       var $brand = $('.brand');
@@ -208,7 +208,7 @@ $(document).ready(function () {
       hasElement($title) && sequence.push({
         e: $title,
         p: {opacity: 1, top: 0},
-        o: { duration: 200 }
+        o: {duration: 200}
       });
 
       hasElement($subtitle) && sequence.push({
@@ -227,7 +227,7 @@ $(document).ready(function () {
       }
 
 
-      function getMistLineSettings (element, translateX) {
+      function getMistLineSettings(element, translateX) {
         return {
           e: $(element),
           p: {translateX: translateX},
@@ -243,7 +243,7 @@ $(document).ready(function () {
        * @param {jQuery|Array} $elements
        * @returns {boolean}
        */
-      function hasElement ($elements) {
+      function hasElement($elements) {
         $elements = Array.isArray($elements) ? $elements : [$elements];
         return $elements.every(function ($element) {
           return $.isFunction($element.size) && $element.size() > 0;
@@ -267,7 +267,7 @@ $(document).ready(function () {
 
       hasPost ? postMotion() : integrator.next();
 
-      function postMotion () {
+      function postMotion() {
         var postMotionOptions = window.postMotionOptions || {
             stagger: 100,
             drag: true

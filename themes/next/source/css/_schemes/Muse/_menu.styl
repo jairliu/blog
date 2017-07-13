@@ -13,8 +13,11 @@
 }
 
 .menu {
-  +mobile() { text-align: left; }
+  +mobile() {
+    text-align: left;
+  }
 }
+
 .menu .menu-item {
   +mobile() {
     display: block;
@@ -23,11 +26,17 @@
   }
 
   br {
-    +mobile() { display: none; }
+    +mobile() {
+      display: none;
+    }
   }
 
   a {
-    +mobile() { padding: 5px 10px; }
+    +mobile() {
+      padding: 5px 10px;
+    }
   }
-  .fa { margin-right: 0; }
+  .fa {
+    margin-right: 0;
+  }
 }

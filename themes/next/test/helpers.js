@@ -35,14 +35,14 @@ define([
     '#hasMobileUA': {
       'should be true': function () {
         minic.mobile();
-        assert.isTrue( hasMobileUA() );
+        assert.isTrue(hasMobileUA());
         minic.tablet();
-        assert.isTrue( hasMobileUA() );
+        assert.isTrue(hasMobileUA());
       },
 
       'should be false': function () {
         minic.desktop();
-        assert.isFalse( hasMobileUA() );
+        assert.isFalse(hasMobileUA());
       }
     },
 
@@ -50,68 +50,69 @@ define([
     '#isDesktop': {
       'should be true': function () {
         minic.desktop(992);
-        assert.isTrue( isDesktop() );
+        assert.isTrue(isDesktop());
 
         minic.desktop(1200);
-        assert.isTrue( isDesktop() );
+        assert.isTrue(isDesktop());
       },
       'should be false': function () {
         minic.mobile();
-        assert.isFalse( isDesktop() );
+        assert.isFalse(isDesktop());
 
         minic.tablet(992);
-        assert.isFalse( isDesktop() );
+        assert.isFalse(isDesktop());
       }
     },
 
     '#isTablet': {
       'should be true': function () {
         minic.tablet(900);
-        assert.isTrue( isTablet() );
+        assert.isTrue(isTablet());
 
         minic.tablet(780);
-        assert.isTrue( isTablet() );
+        assert.isTrue(isTablet());
       },
       'should be false': function () {
         minic.desktop(500);
-        assert.isFalse( isTablet() );
+        assert.isFalse(isTablet());
 
         minic.tablet(1000);
-        assert.isFalse( isTablet() );
+        assert.isFalse(isTablet());
 
         minic.tablet(500);
-        assert.isFalse( isTablet() );
+        assert.isFalse(isTablet());
       }
     },
 
     '#isMobile': {
       'should be true': function () {
         minic.mobile();
-        assert.isTrue( isMobile() );
+        assert.isTrue(isMobile());
 
         minic.mobile(700);
-        assert.isTrue( isMobile() );
+        assert.isTrue(isMobile());
       },
       'should be false': function () {
         minic.desktop();
-        assert.isFalse( isMobile() );
+        assert.isFalse(isMobile());
 
         minic.tablet();
-        assert.isFalse( isMobile() );
+        assert.isFalse(isMobile());
 
         minic.mobile(1000);
-        assert.isFalse( isMobile() );
+        assert.isFalse(isMobile());
       }
     },
 
     '#escapeSelector': function () {
       var selectors = ['(something', '.something', '$something'];
       selectors.forEach(function (s) {
-        assert.equal( escapeSelector(s), '\\' + s );
+        assert.equal(escapeSelector(s), '\\' + s);
       });
     },
 
-    '#displaySidebar': function () {},
+    '#displaySidebar': function () {
+    },
 
     '#isMist': {
       beforeEach: function () {
@@ -121,11 +122,11 @@ define([
       },
       'should be true': function () {
         CONFIG.scheme = 'Mist';
-        assert.isTrue( isMist() );
+        assert.isTrue(isMist());
       },
       'should be false': function () {
         CONFIG.scheme = 'Minimal';
-        assert.isFalse( isMist() );
+        assert.isFalse(isMist());
       }
     }
 

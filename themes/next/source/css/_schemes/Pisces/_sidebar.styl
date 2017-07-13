@@ -1,15 +1,16 @@
-.use-motion .sidebar .motion-element { opacity: 1; }
+.use-motion .sidebar .motion-element {
+  opacity: 1;
+}
 
 .sidebar {
   display: none;
   right: auto;
   bottom: auto;
 
-  // Do NOT delete this line
-  // or Affix (position: fixed) will not work in Google Chrome.
+// Do NOT delete this line
+// or Affix (position: fixed) will not work in Google Chrome.
   -webkit-transform: none;
 }
-
 
 .sidebar-inner {
   box-sizing: border-box;
@@ -37,11 +38,15 @@
 .sidebar a {
   color: $black-light;
 
-  &:hover { color: $black-deep; }
+  &:hover {
+    color: $black-deep;
+  }
 }
 
 .links-of-author-item {
-  a:before { display: none; }
+  a:before {
+    display: none;
+  }
   a {
     border-bottom: none;
     text-decoration: underline;
@@ -63,13 +68,16 @@
     background: none;
     color: darken($orange, 20%);
 
-    i { color: darken($orange, 20%); }
+    i {
+      color: darken($orange, 20%);
+    }
   }
 }
 
 .links-of-author {
   clearfix();
 }
+
 .links-of-author-item {
   sidebar-inline-links-item();
 
@@ -87,17 +95,25 @@
     margin-right: 2px;
     font-size: 16px;
   }
-  .fa-globe { font-size: 15px; }
+  .fa-globe {
+    font-size: 15px;
+  }
 }
-
 
 .links-of-blogroll {
   margin-top: 20px;
   padding: 3px 0 0;
   border-top: 1px dotted $grey-light;
 }
-.links-of-blogroll-title { margin-top: 0; }
-.links-of-blogroll-item { padding: 0; }
+
+.links-of-blogroll-title {
+  margin-top: 0;
+}
+
+.links-of-blogroll-item {
+  padding: 0;
+}
+
 .links-of-blogroll-inline {
   clearfix();
 

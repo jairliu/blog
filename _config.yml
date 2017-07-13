@@ -78,5 +78,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/jairliu/jairliu.github.io.git
+  repository: git@github.com:jairliu/jairliu.github.io.git
   branch: master

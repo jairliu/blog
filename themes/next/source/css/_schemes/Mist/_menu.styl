@@ -5,7 +5,6 @@
   float: right;
 }
 
-
 .menu {
   float: right;
   margin: 8px 0 0 0;
@@ -15,11 +14,15 @@
     padding: 0;
   }
 
-  br { display: none; }
+  br {
+    display: none;
+  }
 
   .menu-item {
     margin: 0;
-    +mobile() { display: block; }
+    +mobile() {
+      display: block;
+    }
   }
 
   .menu-item a {
@@ -33,14 +36,21 @@
       text-align: left;
     }
 
-    &:hover { background: #e1e1e1; }
+    &:hover {
+      background: #e1e1e1;
+    }
   }
 
-  a::before {
-      display: none;
+  a:
+  :before {
+    display: none;
 
-      +mobile() { display: block; }
+    +mobile() {
+      display: block;
     }
+  }
 
-  +mobile() { float: none; }
+  +mobile() {
+    float: none;
+  }
 }

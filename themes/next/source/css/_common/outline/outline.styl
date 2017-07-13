@@ -4,14 +4,14 @@
 //       Or Hexo will use it as template layout.
 // =================================================
 
-
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+}
 
 .container {
   position: relative;
   min-height: 100%;
 }
-
 
 // Header Section
 // --------------------------------------------------
@@ -21,22 +21,28 @@ html, body { height: 100%; }
   width: $content-desktop;
 
   +desktop-large() {
-    .container & { width: $content-desktop-large; }
+    .container & {
+      width: $content-desktop-large;
+    }
   }
 }
 
 // Main Section
 // --------------------------------------------------
-.main { padding-bottom: $footer-height + $gap-between-main-and-footer; }
+.main {
+  padding-bottom: $footer-height + $gap-between-main-and-footer;
+}
+
 .main-inner {
   margin: 0 auto;
   width: $content-desktop;
 
   +desktop-large() {
-    .container & { width: $content-desktop-large; }
+    .container & {
+      width: $content-desktop-large;
+    }
   }
 }
-
 
 // Footer Section
 // --------------------------------------------------
@@ -47,12 +53,15 @@ html, body { height: 100%; }
   width: 100%;
   min-height: $footer-height;
 }
+
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
   width: $content-desktop;
 
   +desktop-large() {
-    .container & { width: $content-desktop-large; }
+    .container & {
+      width: $content-desktop-large;
+    }
   }
 }

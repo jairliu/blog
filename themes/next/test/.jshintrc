@@ -10,7 +10,6 @@
   "expr": true,
   "loopfunc": false,
   "strict": false,
-
   "globals": {
     "define": true,
     "require": true,
