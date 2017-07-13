@@ -2,6 +2,7 @@
 *.md~
 Thumbs.db
 *.log
+db.json
 public/
 .deploy*/
 
