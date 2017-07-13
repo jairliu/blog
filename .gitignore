@@ -1,4 +1,5 @@
 .DS_Store
+.md~
 Thumbs.db
 *.log
 public/
