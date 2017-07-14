@@ -287,10 +287,8 @@ mathjax:
 # Baidu Analytics ID
 baidu_analytics: f10527090f4f61b40f73015508c1f52b
 
-# Duoshuo
-#duoshuo_shortname: ezlippi
 # Disqus
-#disqus_shortname:
+disqus_shortname: codehome-tech
 
 # Hypercomments
 #hypercomments_id:
@@ -300,7 +298,7 @@ baidu_analytics: f10527090f4f61b40f73015508c1f52b
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-youyan_uid: 2138743
+#youyan_uid: 2138743
 
 # Baidu Share
 # Available value:
@@ -315,8 +313,6 @@ youyan_uid: 2138743
 #add_this_id:
 
 # Share
-duoshuo_share: true
-duoshuo_hotartical: true
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 #google_site_verification:
@@ -331,16 +327,6 @@ duoshuo_hotartical: true
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
-
-# Make duoshuo show UA
-# user_id must NOT be null when admin_enable is true!
-# you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
-  #admin_nickname: Author
-
 
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
@@ -487,8 +473,6 @@ vendors:
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
-
-
 
 # Assets
 css: css
