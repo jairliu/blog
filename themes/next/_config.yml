@@ -208,7 +208,6 @@ links:
    szhshp的博客: http://szhshp.org
    JuniorCoder: http://python.zhangwei.website
    Hippo: http://hippo-jessy.com
-   友链出租: https://www.zhihu.com/people/lippi-ouyang
 link_icons:
   enable: true
 # ---------------------------------------------------------------
@@ -242,7 +241,7 @@ post_meta:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-reward_comment: 🐶 您的支持将鼓励我继续创作 🐶
+reward_comment: 您的支持将鼓励我继续创作 🐶
 wechatpay: /images/wechat-reward-img.jpg
 alipay: /images/alipay-reward-img.jpg
 
