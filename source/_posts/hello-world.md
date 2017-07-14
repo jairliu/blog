@@ -1,6 +1,5 @@
 ---
 title: Hello World
-comments: true
 layout: post
 categories: hexo
 tags: [hexo, blog]

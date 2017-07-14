@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "关于：About"
+comments: false
 ---
 
 ## 个人简介：
