@@ -14,7 +14,7 @@ comments: false
 
 ### 关于本站：
 
-* 搭建于[Github](https://github.com/LippiOuYang/LippiOuYang.github.io),欢迎Fork
+* 搭建于[Github](https://github.com/jairliu/jairliu.github.io),欢迎Fork
 
 ## 其他流言
-* 未婚人士；
+* 未婚人士
