@@ -10,6 +10,10 @@
 * 在github中配置github pages
 * 在该项目中配置github pages地址
 
+绑定域名：
+* 申请域名并将cname指向github pages
+* 配置该项目中/source/CNAME，内容为域名地址
+
 hexo常用命令：
 * 新建blog：hexo new "new blog"
 * 清缓存：hexo clean
