@@ -1,6 +1,7 @@
-#blog
+# blog
 
 ### 本blog使用hexo平台，next主题，依托github pages
+#### 示例：http://jairliu.github.io
 
 使用说明：
 * checkout该项目
