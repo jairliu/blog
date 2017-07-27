@@ -157,8 +157,8 @@ social_icons:
 
 
 # Sidebar Avatar
-# in theme directory(source/images): /images/avatar.jpg
-# in site  directory(source/uploads): /uploads/avatar.jpg
+# in theme directory(source/images): /images/avatar.gif
+# in site  directory(source/uploads): /uploads/avatar.gif
 avatar: /images/avatar.gif
 
 
@@ -259,7 +259,7 @@ word_count: true
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: true
-  image: /images/avatar.jpg
+  image: /images/avatar.gif
 
 # Code Highlight theme
 # Available value:
