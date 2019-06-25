@@ -18,7 +18,7 @@
 github域名：https://jairliu.github.io
 
 hexo常用命令：
-* 新建blog：hexo new "new blog"
+* 新建blog：hexo new "new blog"(然后在source/_posts中编辑新文章)
 * 清缓存：hexo clean
 * 启动服务：hexo s
 * 生成静态文件：hexo g
